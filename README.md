@@ -1,62 +1,55 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Enumerable
 
-# Project Name
-
-> Description the project.
-
+> In this project we use a module inside our class. For this we create a class List and a module Enumerable. Our module Enumerable will implement a subset of the functionality of Enumerable.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+-- Ruby
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+-- To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+-- Any text editor such as vscode.
+
 ### Setup
+
+- Clone this repo locally using git in the command line and the following command
+
+```bash
+> git clone git@github.com:Addisu87/Enumerable.git
+```
 
 ### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+-- Ruby
 
 ## Authors
 
-👤 **Author1**
+👤 **Addisu Haile**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Addisu87](https://github.com/Addisu87)
+- Twitter: [@AddisuTedla](https://twitter.com/AddisuTedla)
+- LinkedIn: [Addisu Tedla](www.linkedin.com/in/addisu-tedla/)
 
-👤 **Author2**
+👤 **Owoeye Olaoluwa (Olamarx)**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Olamarx)
+- Twitter: [@twitterhandle](https://twitter.com/Owoeye0laoluwa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/olaoluwa-owoeye-617702162/)
+- Facebook: [Facebook](https://web.facebook.com/olaoluwa.owoeye.39)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](git@github.com:Addisu87/Enumerable.git/issues/).
 
 ## Show your support
 
@@ -71,5 +64,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
