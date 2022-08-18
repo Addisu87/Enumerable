@@ -10,10 +10,10 @@ module Enumerator
   def all?
     @check_all = true
     each do |i|
-      @check_all = unless yield(i)
+      @check_all = false unless yield i
     end
     @check_all
   end
 
-  
+
 end
