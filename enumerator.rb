@@ -43,5 +43,5 @@ module Enumerator
     list_items.sort
   end
 
-  private: list_items
+  private :list_items
 end
