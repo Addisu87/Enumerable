@@ -1,1 +1,11 @@
-gem 'rubocop', 
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+
+BUNDLED WITH
+   2.3.7
