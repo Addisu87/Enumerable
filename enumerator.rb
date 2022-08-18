@@ -30,4 +30,18 @@ module Enumerator
     end
     @filtered_result
   end
+
+  def max?
+    list_items.max
+  end
+
+  def min?
+    list_items.min
+  end
+
+  def sort?
+    list_items.sort
+  end
+
+  private: list_items
 end
