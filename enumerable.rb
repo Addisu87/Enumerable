@@ -2,7 +2,7 @@ module Enumerator
   def list_items
     @lists = []
     each do |i|
-      @lists.push(i) 
+      @lists.push(i)
     end
     @lists
   end
@@ -10,18 +10,24 @@ module Enumerator
   def all?
     @check_all = true
     each do |i|
-      @check_all = unless yield(i)
+      @check_all = false unless yield i
     end
     @check_all
   end
 
   def any?
-    @lists.each do |i|
-      return true if yield i
+    @check_any = false
+    each do |i|
+      @check_any = true if yield i
     end
-    false    
+    @check_any
   end
 
-  
-  
+  def filter?
+    @filtered_result = []
+    each do |i|
+      @filtered_result.push(i) if yield i
+    end
+    @filtered_result
+  end
 end
